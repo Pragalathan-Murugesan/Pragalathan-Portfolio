@@ -1,0 +1,74 @@
+<div class="container" fxLayout="row wrap" 
+ fxFlex.sm="100%" 
+ fxFlex.sm="50%" 
+ fxFlex.xs="100%" 
+  fxLayoutAlign="row wrap">
+ <div fxFlex="100%" fxFlex.sm="100%" fxFlex.sm="50%" fxFlex.xs="100%">
+    <h1><mat-icon> layers</mat-icon>
+      Programming Skills</h1><br>
+    <img  style=" width: 30%;height: 150px;border-radius: 100px; margin-left: 200px; margin-bottom: 50px;"
+     src="../assets/Images/skill_.png" alt=" "><br><br>
+      
+    <img class="img" src="../assets/Images/html_.png" alt="">
+    <img class="img" src="../assets/Images/css_.png" alt="">
+    <img class="img" src="../assets/Images/angular_.png"  alt="">
+    <img class="img" src="../assets/Images/java_.png" alt="">
+    <img class="img" src="../assets/Images/mysql_.png" alt="">
+    <br><br><br>
+    <h1><mat-icon>school</mat-icon>Educational Qualification</h1><br>
+    <table>
+        <tr>
+          <th>COURSE</th>
+          <th>INSTITUTION</th>
+          <th>BOARD/ UNIVERSITY</th>
+          <th>YEAR OF PASSING</th>
+          <th>Aggregate</th>
+        </tr>
+        <tr>
+          <td>MCA</td>
+          <td>ANNAI College Of Arts & Science Kumbakonam</td>
+          <td>Bharathidasan University</td>
+          <td>2023</td>
+          <td>65%</td>
+        </tr>
+        <tr>
+          <td>BCA</td>
+          <td>MASS College Of Arts & Science Kumbakonam</td>
+          <td>Bharathidasan University</td>
+          <td>2021</td>
+          <td>76%</td>
+        </tr>
+        <tr>
+          <td>HSC  </td>
+          <td>Anna Gov.Hr Secondary School Patteeswaram</td>
+          <td>State Board</td>
+          <td>2018</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>SSLC</td>
+          <td>Anna Gov.Hr Secondary School Patteeswaram</td>
+          <td>State Board</td>
+          <td>2016</td>
+          <td>71%</td>
+        </tr>
+      </table> 
+      <br>
+      <h1><mat-icon> forum</mat-icon>Certification</h1><br>
+      <h2 style=" color: rgb(97, 122, 4); margin-right: 200px;">
+        <mat-icon>stars </mat-icon> Angular & Typewriting English
+      </h2>
+
+      <img  style="margin-left: 100px; height: 150px; width: 30%;"
+       class="img"src="../assets/Images/certificate.png" alt=""><br><br>
+      <h1><mat-icon>receipt</mat-icon>Resume</h1>
+      <pdf-viewer
+      [src]="pdfSrc"
+      [original-size]="false"
+      [render-text]="true"
+      style=" display: block ; width: 90%;; height: 400px;">
+    </pdf-viewer>
+<a download class="download-btn" href="../assets/Images/Pragalathan_Resume.pdf">
+<mat-icon>save_alt</mat-icon>Download</a>
+</div>
+</div>

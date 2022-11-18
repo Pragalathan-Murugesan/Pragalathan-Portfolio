@@ -1,0 +1,30 @@
+.container{
+    background-color: rgba(171, 162, 231, 0.973);
+}
+
+.icon{
+    margin-right:5px ; 
+}
+.smile{
+    background-color: yellow;
+    border-radius: 12px;
+}
+h1{
+    margin-left: 110px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+    font-size: x-large; 
+    font-weight: bolder;
+    color: rgb(214, 11, 112);
+}
+#img1{
+    width: 80%;
+    height:300px ;
+    margin-left:80px ;
+}
+#img2{
+    width:35px ;height: 25px;
+}
+#img3{
+    width:40px ;
+    height: 30px;
+}

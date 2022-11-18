@@ -1,0 +1,39 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: rgba(1, 1, 19, 0.911);
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+a:after{
+  content: "";
+  position: absolute;
+  background-color: rgb(245, 17, 47);
+  height: 3px;
+  width: 2px;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover:after{
+  display: ruby;
+  width: 100%;
+}
+.mat-list{
+  text-decoration: none;
+  text-align: center;
+  font-size:large;
+  color: whitesmoke;
+  padding: 10px;
+}
