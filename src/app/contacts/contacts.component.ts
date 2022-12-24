@@ -4,10 +4,21 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.css']
+  
 })
+
 export class ContactsComponent implements OnInit {
+  status: 'active' | 'inactive' = 'inactive';
+
 
   constructor() { }
+  toggle() {
+    if (this.status === 'active') {
+      this.status = 'inactive';
+    } else {
+      this.status = 'active';
+    }
+  }
 
   ngOnInit() {
     this.emailmasking(this.Email);

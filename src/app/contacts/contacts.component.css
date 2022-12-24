@@ -1,30 +1,142 @@
 .container{
-    background-color: rgba(171, 162, 231, 0.973);
+    background-color: rgba(4, 1, 19, 0.973);
 }
 
-.icon{
-    margin-right:5px ; 
-}
 .smile{
     background-color: yellow;
     border-radius: 12px;
 }
 h1{
-    margin-left: 110px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30%; font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
     font-size: x-large; 
     font-weight: bolder;
     color: rgb(214, 11, 112);
 }
-#img1{
-    width: 80%;
+
+.img1{
+    width:75%;
     height:300px ;
-    margin-left:80px ;
+    position: relative;
+    animation: mymove 4s ;
+    animation-iteration-count: 1;
 }
-#img2{
-    width:35px ;height: 25px;
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.container1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
-#img3{
-    width:40px ;
-    height: 30px;
-}
+  
+.profile {
+    position: relative;
+    transition: all 0.3s;
+    width:70px ;
+    height:50px;
+    display: flex;
+    padding: 13px;
+  }
+
+  .profile .image2 {
+    max-width: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(-20px 0 10px rgba(240, 131, 131, 0.1));
+    cursor: pointer;
+  }
+
+.profile:not(:first-child) .image2 {
+    margin-left: -20px;
+  }
+  
+  .profile .name {
+    position: absolute;
+    background-color: #10996d;
+    color: #fff;
+    font-family: "Bebas Neue", cursive;
+    border-radius: 100px;
+    bottom: -66px; left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50px);
+    letter-spacing: 2px;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  .profile .name::before {
+    content: "";
+    position: absolute;
+    width: 15px; height: 15px;
+    background-color: #10996d;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .profile .image2:hover + .name {
+    opacity: 1;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+  }
+
+
+.btn1{
+
+    background-color: rgb(6, 252, 6);
+    text-decoration: none;
+    border-radius: 23px;
+    margin-right:300px;
+    text-align: center;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    }
+    .body{
+        height: 100%;
+        background:radial-gradient(ellipse at bottom,#1b2735 0% #090a0f 100%,);
+        overflow: hidden;
+        filter: drop-shadow(0 0 13px rgb(243, 177, 177));
+    
+    }   
+    
+    .snow{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 50px;
+    }
+    
+    .snow:nth-child(1){
+        opacity: 0.6064;
+        transform: translate(56.596vw,-10px) scale(0.1606);
+        animation: fall-1 22s -16s linear infinite;
+    }
+    
+    @keyframes fall-1{
+     34.585%{
+        transform: translate(57.990vw,4.585vh)
+        scale(0.1606);
+     }
+      to{
+        transform: translate(57.29195vw,100vh)
+        scale(o.1606);
+      }
+    }
+
+.icon{
+        width: 150px;
+        height: 100px;
+        position: relative;
+        animation: mymove 3s infinite;
+      }
+      
+      @keyframes mymove {
+        from {bottom: 0px;}
+    to {bottom: 50px;}
+      }
+
+    
+

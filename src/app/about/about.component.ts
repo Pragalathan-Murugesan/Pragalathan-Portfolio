@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   pdfSrc =  "../assets/Images/Pragalathan_Resume.pdf";
+  status: 'active' | 'inactive' = 'inactive';
 
   constructor() { }
+  toggle() {
+    if (this.status === 'active') {
+      this.status = 'inactive';
+    } else {
+      this.status = 'active';
+    }
+  }
 
+  
   ngOnInit(): void {
   }
 

@@ -1,14 +1,11 @@
-<div class="container" fxLayout="row wrap" 
+<div class="container" 
  fxFlex.sm="100%" 
  fxFlex.sm="50%" 
- fxFlex.xs="100%" 
-  fxLayoutAlign="row wrap">
- <div fxFlex="100%" fxFlex.sm="100%" fxFlex.sm="50%" fxFlex.xs="100%">
+ fxFlex.xs="110%" >
+ <div class="body" fxFlex="100%" fxFlex.sm="100%" fxFlex.sm="50%" fxFlex.xs="110%">
+  <div class="snow"></div>
     <h1><mat-icon> layers</mat-icon>
-      Programming Skills</h1><br>
-    <img  style=" width: 30%;height: 150px;border-radius: 100px; margin-left: 200px; margin-bottom: 50px;"
-     src="./assets/Images/skill_.png" alt=" "><br><br>
-      
+      Programming Skills</h1><br>  
     <img class="img" src="./assets/Images/html_.png" alt="">
     <img class="img" src="./assets/Images/css_.png" alt="">
     <img class="img" src="./assets/Images/angular_.png"  alt="">
@@ -56,7 +53,7 @@
       <br>
       <h1><mat-icon> forum</mat-icon>Certification</h1><br>
       <h2 style=" color: rgb(97, 122, 4); margin-right: 200px;">
-        <mat-icon>stars </mat-icon> Angular & Typewriting English
+        <mat-icon>stars </mat-icon>Java & Typewriting English
       </h2>
 
       <img  style="margin-left: 100px; height: 150px; width: 30%;"
@@ -68,7 +65,15 @@
       [render-text]="true"
       style=" display: block ; width: 90%;; height: 400px;">
     </pdf-viewer>
-<a download class="download-btn" href="./assets/Images/Pragalathan_Resume.pdf">
+<a  class="download-btn" href="./assets/Images/Pragalathan_Resume.pdf">
 <mat-icon>save_alt</mat-icon>Download</a>
-</div>
+<br><br>
+
+   <button class=" btn1" type="button" (click)="toggle()">
+    <a  routerLink='/' routerLinkActive="active" ariaCurrentWhenActive="page">Previous</a>
+    </button>
+   <button class=" btn2" type="button" (click)="toggle()">
+  <a  routerLink="/achievements" routerLinkActive="active" ariaCurrentWhenActive="page">Next</a>
+  </button>
+ </div>
 </div>
