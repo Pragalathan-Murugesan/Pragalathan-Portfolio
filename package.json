@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "CI= npm run build",
+    "start": "ng start",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "netlify-postbuild": "ng build"
