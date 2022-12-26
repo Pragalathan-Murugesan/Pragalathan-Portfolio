@@ -31,6 +31,12 @@ h1{
     margin: 0 auto;
 }
   
+h1{
+  font-size: x-large;
+  color: rgb(163, 23, 13);
+  font-weight: bolder;
+  margin-right: 200px;
+}
 .profile {
     position: relative;
     transition: all 0.3s;
