@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  pdfSrc =  "../assets/Images/Pragalathan_Resume.pdf";
+  pdfSrc =  "../assets/Images/Pragalathan M_resume.pdf";
   status: 'active' | 'inactive' = 'inactive';
 
   constructor() { }
