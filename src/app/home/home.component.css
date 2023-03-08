@@ -1,10 +1,10 @@
 
 .container{
-    
+
     background-color: rgba(4, 1, 19, 0.973);
 }
 .img{
-    height:500px;
+    height:40%px;
     width: 75%;
 }
 h1{
@@ -55,7 +55,7 @@ h2{
     background-color: rgb(240, 158, 208);
   }
 
-  
+
 .btn{
 
         background-color: rgb(6, 252, 6);
@@ -72,12 +72,12 @@ h2{
         }
 
 .body{
-    height: 100%;
+    height:100%;
     background:radial-gradient(ellipse at bottom,#1b2735 0% #090a0f 100%,);
     overflow: hidden;
     filter: drop-shadow(0 0 13px white);
 
-}   
+}
 
 .snow{
     position: absolute;
