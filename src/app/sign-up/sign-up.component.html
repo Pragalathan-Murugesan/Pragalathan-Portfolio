@@ -1,0 +1,12 @@
+<form (ngSubmit)="signUp()" #signupForm="ngForm">
+  <!-- Include form fields for signup -->
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" [(ngModel)]="user.username" name="username" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="user.password" name="password" required>
+  </div>
+  <button type="submit" [disabled]="!signupForm.valid">Sign Up</button>
+</form>
