@@ -57,17 +57,19 @@ h2{
 
 
 .btn{
-
-        background-color: rgb(6, 252, 6);
-        text-decoration: none;
-        border-radius: 30px;
-        text-align: center;
-        margin-left:70%;
+  background-color: rgb(6, 252, 6);
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  margin-left:70%;
+  margin-bottom: 20px;
+  width: 100px;
   text-align: center;
   color: rgb(136, 18, 18);
   font-weight: bold;
   font-size: medium;
-      letter-spacing: 2px;
+  height: 35px;
+  letter-spacing: 2px;
 
         }
 

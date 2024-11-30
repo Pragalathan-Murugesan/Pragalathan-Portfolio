@@ -12,7 +12,7 @@
 }
 h1{
     font-size: x-large;
-    color: rgb(163, 23, 13);
+    color: rgb(194, 195, 208);
     font-weight: bolder;
     margin-right: 200px;
 }
@@ -47,10 +47,12 @@ h1{
     border-radius: 10px;
     text-align: center;
     margin-left:40%;
+    margin-top: 50px;
     font-size: medium;
       letter-spacing: 2px;
   
     }
+
     .download-btn:hover {
       transform: translateY(25px);
       background-color: rgb(91, 91, 197);
@@ -63,35 +65,37 @@ h1{
     .btn2:hover {
       background-color: rgb(243, 148, 219);
     }
-    .btn1{
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      margin: 80px auto;
+      max-width: 800px; 
+    }
+    
+    .btn1, .btn2 {
       background-color: rgb(6, 252, 6);
       text-decoration: none;
-      border-radius: 23px;
-      margin-right:300px;
+      border-radius: 30px;
       text-align: center;
       color: black;
-      padding: 3px;
+      width: 100px;
+      height: 35px;
       font-weight: bold;
       font-size: medium;
       letter-spacing: 2px;
-
-      }
-
-
-      .btn2{
-
-        background-color: rgb(6, 252, 6);
-        text-decoration: none;
-        border-radius: 23px;
-        margin-left:70%;
-        text-align: center;
-        color: black;
-        margin-top: -130px;
-        padding: 3px;
-        font-weight: bold;
-        font-size: medium;
-        letter-spacing: 2px;
-        }
+      border: none;
+      cursor: pointer;
+    }
+    
+    .btn1 {
+      margin-right: 0; 
+    }
+    
+    .btn2 {
+      margin-left: 0;
+    }
+    
 
         .body{
           height: 100%;

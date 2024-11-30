@@ -7,7 +7,6 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-
   },
   "private": true,
   "dependencies": {
@@ -30,6 +29,7 @@
     "express": "^4.18.2",
     "ng2-pdf-viewer": "^9.1.2",
     "path": "^0.12.7",
+    "Pragalathan_Portfolio": "file:",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "typescript": "~4.7.2",

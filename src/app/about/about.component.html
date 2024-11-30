@@ -8,10 +8,14 @@
       Programming Skills</h1><br>
     <img class="img" src="./assets/Images/html_.png" alt="">
     <img class="img" src="./assets/Images/css_.png" alt="">
-    <img class="img" src="./assets/Images/angular_.png"  alt="">
+    <!-- <img class="img" src="./assets/Images/angular_.png"  alt=""> -->
     <img class="img" src="./assets/Images/java_.png" alt="">
-    <img class="img" src="./assets/Images/mysql_.png" alt="">
     <img class="img" src="./assets/Images/boot.jpg" alt="">
+    <img class="img" src="./assets/Images/postgresqlimg.jpg" alt="">
+    <img class="img" src="./assets/Images/NOSQLIMG.png" alt="">
+    <img class="img" src="./assets/Images/IOTImg.png" alt="">
+
+
 
     <br><br><br>
     <h1><mat-icon>school</mat-icon>Educational Qualification</h1><br>
@@ -68,15 +72,19 @@
       [render-text]="true"
       style=" display: block ; width: 90%;; height: 400px;">
     </pdf-viewer>
-<a  class="download-btn" href="./assets/Images/Pragalathan M_resume.pdf">
+    <br><br>
+    <a  class="download-btn" href="./assets/Images/Pragalathan M_resume.pdf">
 <mat-icon>save_alt</mat-icon>Download</a>
 <br><br>
 
-   <button class=" btn1" type="button" (click)="toggle()">
-    <a  routerLink='/' routerLinkActive="active" ariaCurrentWhenActive="page">Previous</a>
-    </button>
-   <button class=" btn2" type="button" (click)="toggle()">
-  <a  routerLink="/achievements" routerLinkActive="active" ariaCurrentWhenActive="page">Next</a>
+<div class="button-container">
+  <button class="btn1" type="button" (click)="toggle()">
+    <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Previous</a>
   </button>
+  <button class="btn2" type="button" (click)="toggle()">
+    <a routerLink="/achievements" routerLinkActive="active" ariaCurrentWhenActive="page">Next</a>
+  </button>
+</div>
+
  </div>
 </div>
